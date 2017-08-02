@@ -4,15 +4,9 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 class City extends CI_Controller 
 {
 
-    function __construct() 
-    {
-        parent::__construct();
-        $this->load->model('Common_model');
-    }
-
     function index() 
     {
-    	if(!empty($_POST))
+    	if(!empty(aaaalll))
     	{
     		$this->form_validation->set_rules('city_name', 'City Name', 'required|trim');
     		
